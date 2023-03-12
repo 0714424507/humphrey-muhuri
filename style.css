@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.navbar ul{
+    display: flex;
+list-style: none;
+}
+.navbar ul li{
+    padding: 5px 30px; 
+    
+}
+.navbar ul li a{
+    color: red;
+    text-decoration:none;
+    font-size: larger
+    ;
+}
+.navbar ul li a:hover{
+    background-color: black;
+    color:yellowgreen;
+
+
+}
+h1{
+   color: indigo; 
+
+
+}
+span{
+    color: black;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    
+    
+   
+    height: 860px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(hump.jpg) no-repeat center center/cover;
+    top: 0;
+    right: 0;
+    height: 1200px;
+    width: 100%;
+    z-index: -1;
+}
+.first {
+     align-items: center;
+     position: absolute;
+     top: 30%;
+     right: 15%;
+
+
+}
+.first button a{
+    color:orangered;
+    font-size: larger;
+}
+.first button a:hover{
+    background-color: black;
+
+}
+.skills h2{
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+     color: indigo;
+    font-style: normal;}
+.boxe1 h2{
+    color: red;
+}
+.web p{ 
+    color: indigo;
+}
+.cardbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.squares{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
